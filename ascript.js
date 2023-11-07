@@ -20,8 +20,8 @@ let clock = Vue.component("clock", {
   methods: {
     setTime: function() {
       let date = new Date();
-      let hour = 19;//date.getHours();
-      let min = 30;//date.getMinutes();
+      let hour = 4;//date.getHours();
+      let min = 0;//date.getMinutes();
       let sec = 0;//date.getSeconds();
       let parsedSec = 0;
       let parsedHour = 0;
@@ -129,8 +129,8 @@ let clock = Vue.component("clock", {
     },
     setDate: function() {
       let date = new Date();
-      let dte = 20;//date.getDate();
-      let day = 1;//date.getDay();
+      let dte = 11;//date.getDate();
+      let day = 2;//date.getDay();
       let month = 10;//date.getMonth();
       let year = 2023;//date.getFullYear();
 
